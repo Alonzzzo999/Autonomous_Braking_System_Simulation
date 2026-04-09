@@ -53,6 +53,18 @@ This allows the system to react earlier when approaching the lead vehicle too qu
 
 ## Results
 
+### Following Distance
+![Following Distance](images/distance.png)
+
+### Vehicle Speeds
+![Vehicle Speeds](images/speed.png)
+
+### Brake Force
+![Brake Force](images/brake.png)
+
+### Acceleration
+![Acceleration](images/acceleration.png)
+
 The system was improved through iterative changes:
 
 * Initial minimum distance: 3.89 m
