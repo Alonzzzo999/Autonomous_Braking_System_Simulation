@@ -65,13 +65,15 @@ This allows the system to react earlier when approaching the lead vehicle too qu
 ### Acceleration
 ![Acceleration](images/acceleration.png)
 
-The system was improved through iterative changes:
+The system was improved through iterative tuning and control design changes:
 
-* Initial minimum distance: 3.89 m
-* After tuning: 6.54 m
-* With predictive braking: 11.43 m
+- Initial controller: minimum distance of 3.89 m  
+- After PID tuning: 6.54 m  
+- With predictive braking (relative velocity): 11.43 m  
 
-These changes reduced late braking and improved overall stability.
+These improvements reduced late braking, increased safety margins, and produced a more stable system response under dynamic conditions.
+
+This demonstrates the importance of incorporating predictive information, such as relative velocity, rather than relying solely on reactive distance-based control.
 
 ---
 
