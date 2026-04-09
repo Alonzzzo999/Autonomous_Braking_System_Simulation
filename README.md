@@ -69,6 +69,8 @@ This allows the system to react earlier when approaching the lead vehicle too qu
 
 The system was improved through iterative tuning and control design changes:
 
+Final system achieved a minimum following distance of **11.43 m** under a sudden lead vehicle slowdown.
+
 - Initial controller: minimum distance of 3.89 m  
 - After PID tuning: 6.54 m  
 - With predictive braking (relative velocity): 11.43 m  
